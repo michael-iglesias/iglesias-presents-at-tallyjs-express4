@@ -38,7 +38,7 @@ router.get('/', function(req, res) {
 // ----------------------------------------------------
 router.route('/birds')
 
-	// create a bear (accessed at POST http://localhost:8080/birds)
+	// create a bird (accessed at POST http://localhost:8080/birds)
 	.post(function(req, res) {
 		
 		var bird = new Bird();		// create a new instance of the Bird model
@@ -77,7 +77,7 @@ router.route('/birds/:bird_id')
 		});
 	})
 
-	// update the bear with this id
+	// update the bird with this id
 	.put(function(req, res) {
 		Bird.findById(req.params.bird_id, function(err, bird) {
 
@@ -95,7 +95,7 @@ router.route('/birds/:bird_id')
 		});
 	})
 
-	// delete the bear with this id
+	// delete the bird with this id
 	.delete(function(req, res) {
 		Bird.remove({
 			_id: req.params.bird_id
