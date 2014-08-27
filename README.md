@@ -1,18 +1,17 @@
-# Building a RESTful API in Node and Express
+# Technology Grows - Intro to Node.js
 
-Using the new Express 4.0 Router to build an API
+We will be using (Node/Express/Mongo) to build a RESTful API
 
-[Read the tutorial](http://scotch.io/tutorials/javascript/build-a-restful-api-using-node-and-express-4)
+## Prereqs
 
-## Requirements
-
-- Node and npm
+- Node Installed
+- Express Installed
 
 ## Installation
 
-- Clone the repo: `git clone git@github.com:scotch-io/node-api`
+- Clone repo: `git clone https://github.com/michael-iglesias/intro-to-node-express4.git`
 - Install dependencies: `npm install`
-- Start the server: `node server.js`
+- Start the server: `npm start`
 
-## Testing the API
-Test your API using [Postman](https://chrome.google.com/webstore/detail/postman-rest-client-packa/fhbjgbiflinjbdggehcddcbncdddomop)
+## Running Example
+We will be using Postman (Chrome plugin)
