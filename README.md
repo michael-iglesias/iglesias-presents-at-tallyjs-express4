@@ -1,4 +1,4 @@
-# Technology Grows - Intro to Node.js
+# Michael Iglesias Presents Intro to Node.js Sponsored by Technology Grows @ TallyJS
 
 We will be using (Node/Express/Mongo) to build a RESTful API
 
